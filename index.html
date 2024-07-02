@@ -1,1 +1,89 @@
 
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing</title>
+
+<link href="dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="dist/js/tabulator.min.js"></script>
+
+
+
+<style>
+
+body {
+  font-family: Verdana;
+}
+
+
+</style>
+
+</head>
+    <body>
+
+<h1> Generative AI use cases in official statistics </h1> 
+
+
+<p> This page contains generative AI use cases in national and international statistical organizations presented at various relevant meetings. If you want your use case / research to be added, please submit it via this form </p>
+
+
+
+
+<div id="example-table">
+
+
+<script type="text/javascript">
+
+
+//define some sample data
+        var tabledata = [
+            {id:1, usecasetype:"Code translation / generation", worktitle:"SAS to R translation", link: "https://google.com",      resourcetype:"Report", organisation:"Ireland CSO", date: "2023-12", aimodels: "GPT3.5", approach: " ", tools: " ", codeavailability: "" },
+            {id:2, usecasetype:"Code translation / generation", worktitle:"SAS to R conversion: the use of LLM", link: "https://my.visme.co/view/z4nodvzv-gpt-for-sas-to-r-slides-for-geneva#s1",      resourcetype:"Presentation", organisation:"France Insee", date: "2023-11", aimodels: "GPT3.5", approach: " ", tools: " ", codeavailability: "" }, 
+
+            {id:3, usecasetype:"Text generation - analysis report", worktitle:"report generation", link: "https://my.visme.co/view/z4nodvzv-gpt-for-sas-to-r-slides-for-geneva#s1",      resourcetype:"Report", organisation:"Statistics Canada", date: "2023-11", aimodels: "GPT3.5", approach: " ", tools: " ", codeavailability: "" } 
+
+
+
+
+
+
+
+];
+
+        var linkFormatter = function(cell, formatterParams, onRendered){
+            var name = cell.getValue();
+            var url = cell.getRow().getData().link; // Assuming the URL is stored in a "link" field
+            return "<a href='" + url + "' target='_blank'>" + name + "</a>";
+        };
+
+
+//create Tabulator on DOM element with id "example-table"
+var table = new Tabulator("#example-table", {
+ 	height:100, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+ 	data:tabledata, //assign data to table
+ 	layout:"fitColumns", //fit columns to width of table (optional)
+ 	columns:[ //Define Table Columns
+	 	{title:"Use case type", field:"usecasetype", width:150},
+	 	{title:"Title", field:"worktitle", hozAlign:"left", formatter: linkFormatter},
+	 	{title:"Resource type", field:"resourcetype"},
+	 	{title:"Organisation", field:"organisation", hozAlign:"center"},	 	 	
+{title:"Date", field:"date"},	
+{title:"AI models used", field:"aimodels"},	
+{title:"Approach", field:"approach"},	
+{title:"Tools", field:"tools"},	
+{title:"Code avaiability", field:"codeavailability"},	
+ 	],
+});
+
+
+</script>
+
+
+
+</div>
+
+</body>
+
+</html>

@@ -62,5 +62,31 @@ var tabledata = [{
     approach: "Prompt engineering, RAG",
     tools: "OpenAI AI Assistant",
     codeavailability: "N/A"
+},
+{
+    id: 6,
+    usecasetype: "Communication materials - texts",
+    worktitle: "Use of AI in the communication and dissemination of statistics",
+    link: "https://statswiki.unece.org/download/attachments/449708474/2024-04%20BIS%20Metadata%20editing%20leveraging%20GPT.pdf?version=1&modificationDate=1714557129914&api=v2",
+    resourcetype: "Presentation",
+    organisation: "Indonesia BIS",
+    date: "2024-03",
+    aimodels: "GPT 3.5",
+    approach: "Prompt engineering",
+    tools: " ",
+    codeavailability: "N/A"
+},
+{
+    id: 7,
+    usecasetype: "Communication materials - images",
+    worktitle: "Use of Generative AI in ESTAT",
+    link: "https://statswiki.unece.org/download/attachments/449708474/2024-04%20BIS%20Metadata%20editing%20leveraging%20GPT.pdf?version=1&modificationDate=1714557129914&api=v2",
+    resourcetype: "Presentation",
+    organisation: "eUROSTAT",
+    date: "2024-04",
+    aimodels: " ",
+    approach: "Prompt engineering",
+    tools: "DALL.E, ChatGPT 4, Adobe Firefly, Image Creator, Midjourney",
+    codeavailability: "N/A"
 }
 ]

@@ -1,0 +1,66 @@
+var tabledata = [{
+    id: 1,
+    usecasetype: "Code translation / generation",
+    worktitle: "SAS to R translation",
+    link: "https://google.com",
+    resourcetype: "Report",
+    organisation: "Ireland CSO",
+    date: "2023-12",
+    aimodels: "GPT3.5",
+    approach: " ",
+    tools: " ",
+    codeavailability: ""
+},
+{
+    id: 2,
+    usecasetype: "Code translation / generation",
+    worktitle: "SAS to R conversion: the use of LLM",
+    link: "https://my.visme.co/view/z4nodvzv-gpt-for-sas-to-r-slides-for-geneva#s1",
+    resourcetype: "Presentation",
+    organisation: "France Insee",
+    date: "2023-11",
+    aimodels: "GPT3.5",
+    approach: " ",
+    tools: " ",
+    codeavailability: ""
+},
+{
+    id: 3,
+    usecasetype: "Text generation - analysis report",
+    worktitle: "report generation",
+    link: "https://my.visme.co/view/z4nodvzv-gpt-for-sas-to-r-slides-for-geneva#s1",
+    resourcetype: "Report",
+    organisation: "Statistics Canada",
+    date: "2023-11",
+    aimodels: "GPT3.5",
+    approach: " ",
+    tools: " ",
+    codeavailability: ""
+},
+{
+    id: 4,
+    usecasetype: "Text generation - analysis report",
+    worktitle: "AI in Statistics Norway",
+    link: "https://statswiki.unece.org/download/attachments/449708474/AI%20in%20Statistics%20Norway_.pdf?version=1&modificationDate=1718780512694&api=v2",
+    resourcetype: "Presentation",
+    organisation: "Statistics Norway",
+    date: "2024-05",
+    aimodels: "GPT 4",
+    approach: "Prompt engineering",
+    tools: "Chat GPT",
+    codeavailability: "N/A"
+},
+{
+    id: 5,
+    usecasetype: "Text edit",
+    worktitle: "Leveraging AI-assistants for better metadata and communication",
+    link: "https://statswiki.unece.org/download/attachments/449708474/2024-04%20BIS%20Metadata%20editing%20leveraging%20GPT.pdf?version=1&modificationDate=1714557129914&api=v2",
+    resourcetype: "Presentation",
+    organisation: "BIS",
+    date: "2024-03",
+    aimodels: "GPT 3.5",
+    approach: "Prompt engineering, RAG",
+    tools: "OpenAI AI Assistant",
+    codeavailability: "N/A"
+}
+]

@@ -27,7 +27,7 @@ var tabledata = [{
 {
     id: 3,
     usecasetype: "Text generation for analysis",
-    worktitle: "report generation",
+    worktitle: "Report Generation Using LLMs",
     link: "https://unece.org/sites/default/files/2023-12/HLGMOS%20LLM%20Paper_Preprint_1.pdf",
     resourcetype: "Report",
     organisation: "Statistics Canada",
@@ -152,6 +152,45 @@ var tabledata = [{
     aimodels: "GPT-3.5, GPT-4 Turbo, GPT-4",
     approach: "Prompt engineering ",
     tools: "Chat GPT via Azure Microsoft Cloud Service",
+    codeavailability: " "
+},
+{
+    id: 13,
+    usecasetype: "Data dissemination and information search",
+    worktitle: "Stat GPT - Exploring Official Statistics using Generative AI and SDMX",
+    link: "https://unece.org/sites/default/files/2024-06/5_2_3_AI%20and%20LLM_IMF_BertKroese.pdf",
+    resourcetype: "Presentation",
+    organisation: "IMF",
+    date: "2024-06",
+    aimodels: "",
+    approach: "Multi agent",
+    tools: "",
+    codeavailability: " "
+},
+{
+    id: 14,
+    usecasetype: "Data dissemination and information search",
+    worktitle: "Stat GPT - Exploring Official Statistics using Generative AI and SDMX",
+    link: "https://unece.org/sites/default/files/2023-12/HLGMOS%20LLM%20Paper_Preprint_1.pdf",
+    resourcetype: "Paper",
+    organisation: "IMF",
+    date: "2023-11",
+    aimodels: "GPT-3.5, GPT-4",
+    approach: "",
+    tools: "AI-Dial",
+    codeavailability: " "
+},
+{
+    id: 15,
+    usecasetype: "Text generation for data processing",
+    worktitle: "Updating Statistical Classification Definitions",
+    link: "https://unece.org/sites/default/files/2023-12/HLGMOS%20LLM%20Paper_Preprint_1.pdf",
+    resourcetype: "Paper",
+    organisation: "Australian Bureau of Statistics",
+    date: "2023-11",
+    aimodels: "",
+    approach: "",
+    tools: "",
     codeavailability: " "
 }
 ]

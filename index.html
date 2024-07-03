@@ -13,7 +13,7 @@
 
 		.header {
 		width: 100%; 
-		padding: 10px 16px;
+		padding: 10px -10px;
 		background: #343a40;
 		color: #f1f1f1;
 		box-sizing: border-box; /* Ensure padding doesn't affect the width */
@@ -22,7 +22,7 @@
 		left: 0;
 		z-index: 1000; /* Ensure the header is above other elements */
 		text-align: center;
-		height: 100px;
+		height: 90px;
 		}
 
 		/* Page content */
@@ -32,7 +32,7 @@
 		padding-bottom: 120px;
 		}
 
-		.tabulator {
+		.content_small {
 			font-size: 15px
 		}
 
@@ -97,10 +97,12 @@
     </div>
 
     <div class="content"> 
-      <p> This page contains generative AI use cases in national and international statistical organizations presented at various relevant meetings. If you want your use case / research to be added, please submit it via pull request to <a href="https://github.com/InKyungChoi/testforGAI/blob/main/data.js"> the data file on github</a> or <a href = "https://forms.office.com/e/6MGDyDh3Tw">this form</a> </p>
+      <p> This page contains generative AI use cases in national and international statistical organizations presented at various relevant meetings. If you want your use case / research to be added, please submit it via pull request to <a href="https://github.com/InKyungChoi/testforGAI/blob/main/data.js"> the data file on github</a> or <a href = "https://forms.office.com/e/6MGDyDh3Tw">this form</a>. </p>
 
-	  	<div>
-			<button type="submit" onclick="window.open('data.js')">See data file in JSON</button>
+		<h3> List of use cases </h3>
+
+		<div>
+			<button type="submit" onclick="window.open('data.js')">See data file in JS </button>
 		</div>
 
 		<p> </p>
@@ -128,9 +130,11 @@
 				layout: "fitColumns", // alternatives: fitData ; fitDataStretch  ;fitDataFill ; fitDataTable ; fitColumns
 				columns: [ //Define Table Columns
 					{
-					// title: "ID",
-					// field: "id",
-					// }, {
+					title: " ",
+					field: "id",
+					width: 40,
+					hozAlign:"center",
+					}, {
 					title: "Use case type",
 					field: "usecasetype",
 					formatter:"textarea",
@@ -173,11 +177,26 @@
 
 			
 		</div>
+
+		<h3> List of use case type </h3>
+		<div class = "content_small"> 
+			<ul>
+				<li>Code and IT development (e.g., code translation, code generation)</li>
+				<li>Text generation for data processing (e.g., synthetic data generation, classification for COICOP)</li>
+				<li>Text generation for analysis (e.g., analytical report generation, market analysis using text summaries from news articles)</li>
+				<li>Communication - textual materials (e.g., press release, social media post)</li>
+				<li>Communication - images or videos materials  </li>
+				<li>Data dissemination and information search (e.g., variable/time series search, content search including internal use) </li>
+				<li>Chatbot (e.g., for survey respondents, interviewers) </li>
+				<li>Administrative tasks (e.g., internal email, meeting notes, preparing presentation slides)</li>
+				<li>Other</li>
+			</ul>  
+		</div>
 	</div>
 
 	<div class="footer">
-      <img src="modernstats.jpg" alt="Footer Image">
+      <a  href = "https://unece.org/statistics/modernstats"> <img src="modernstats.jpg" alt="Footer Image"> </a>
     </div>
     
   </body>
-</html>
+</html> 

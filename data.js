@@ -3,7 +3,7 @@ var tabledata = [{
     usecasetype: "Code and IT development",
     worktitle: "SAS to R translation",
     link: "https://unece.org/sites/default/files/2023-12/HLGMOS%20LLM%20Paper_Preprint_1.pdf",
-    resourcetype: "Report",
+    resourcetype: "Paper",
     organisation: "CSO Ireland",
     date: "2023-12",
     aimodels: "GPT-3.5",
@@ -29,7 +29,7 @@ var tabledata = [{
     usecasetype: "Text generation for analysis",
     worktitle: "Report Generation Using LLMs",
     link: "https://unece.org/sites/default/files/2023-12/HLGMOS%20LLM%20Paper_Preprint_1.pdf",
-    resourcetype: "Report",
+    resourcetype: "Paper",
     organisation: "Statistics Canada",
     date: "2023-11",
     aimodels: "GPT-3.5",
@@ -120,7 +120,7 @@ var tabledata = [{
     usecasetype: "Data dissemination and information search",
     worktitle: "Using large language models (LLMs) to improve website search experience with StatsChat ",
     link: "https://datasciencecampus.ons.gov.uk/using-large-language-models-llms-to-improve-website-search-experience-with-statschat/",
-    resourcetype: "Report",
+    resourcetype: "Blog",
     organisation: "UK ONS",
     date: "2023-08",
     aimodels: "Flan-T5; all-mpnet-base-v2",
@@ -191,6 +191,19 @@ var tabledata = [{
     aimodels: "",
     approach: "",
     tools: "",
+    codeavailability: " "
+},
+{
+    id: 16,
+    usecasetype: "Data dissemination and information search",
+    worktitle: "Adopting artificial intelligence in the production and dissemination of official statistics",
+    link: "https://unece.org/sites/default/files/2024-05/ECE_CES_2024_21_E.pdf",
+    resourcetype: "Paper",
+    organisation: "Statistics Norway",
+    date: "2024-05",
+    aimodels: "",
+    approach: "RAG",
+    tools: "LangChain, Chainlit, PandasAI",
     codeavailability: " "
 }
 ]

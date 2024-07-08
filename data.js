@@ -91,7 +91,7 @@ var tabledata = [{
 },
 {
     id: 8,
-    usecasetype: "Communication - images or videos materials",
+    usecasetype: "Data dissemination and information search",
     worktitle: "Free to play: UNCTAD's experience with developing its own open-source RAG LLM application",
     link: "https://unece.org/sites/default/files/2024-05/ECE_CES_2024_23_E.pdf",
     resourcetype: "Paper",
@@ -104,7 +104,7 @@ var tabledata = [{
 },
 {
     id: 9,
-    usecasetype: "Communication - images or videos materials",
+    usecasetype: "Data dissemination and information search",
     worktitle: "Free to play: UNCTAD's experience with developing its own open-source RAG LLM application",
     link: "https://unece.org/sites/default/files/2024-06/5_2_4_AI%20and%20LLM_UNCTAD_DanielHopp.pdf",
     resourcetype: "Presentation",

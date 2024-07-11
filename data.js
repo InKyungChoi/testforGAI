@@ -205,5 +205,18 @@ var tabledata = [{
     approach: "RAG",
     tools: "LangChain, Chainlit, PandasAI",
     codeavailability: " "
-}
+},
+{
+    id: 17,
+    usecasetype: "Text generation for data processing",
+    worktitle: "Adopting artificial intelligence in the production and dissemination of official statistics",
+    link: "https://datasciencecampus.ons.gov.uk/classifai-exploring-the-use-of-large-language-models-llms-to-assign-free-text-to-commonly-used-classifications/",
+    resourcetype: "Blog",
+    organisation: "UK ONS",
+    date: "2024-07",
+    aimodels: " MiniLM, Gemini-Pro",
+    approach: "RAG",
+    tools: "LangChain, Streamlit",
+    codeavailability: "Yes"
+} 
 ]

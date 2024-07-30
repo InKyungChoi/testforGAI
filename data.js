@@ -218,5 +218,18 @@ var tabledata = [{
     approach: "RAG",
     tools: "LangChain, Streamlit",
     codeavailability: "Yes"
+},
+{
+    id: 18,
+    usecasetype: "Data dissemination and information search",
+    worktitle: "SDMX + AI: A path to explore generative AI for better data accessibility",
+    link: "https://siscc.org/sdmxai/",
+    resourcetype: "Workshop",
+    organisation: "OECD & BIS",
+    date: "2024-04",
+    aimodels: "GPT-3.5, GPT-4",
+    approach: "RAG",
+    tools: "Stat GPT (IMF), .Stat LLM-based Search POC (SEASE), StatsBot POC (e-Zest), ChatHMS (HMS)",
+    codeavailability: "N/A"
 } 
 ]
